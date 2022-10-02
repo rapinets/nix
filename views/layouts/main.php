@@ -17,7 +17,7 @@
 
 <main>
     <div class="container">
-        {{ content }}
+        <?php include_once '../posts.php' ?>
     </div>
 </main>
 
