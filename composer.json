@@ -1,0 +1,15 @@
+{
+    "name": "rapynets/nix",
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "rapinets",
+            "email": "rapinecvasiliy@gmail.com"
+        }
+    ],
+    "require": {}
+}
