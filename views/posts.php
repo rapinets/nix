@@ -2,11 +2,7 @@
 <h1>Posts</h1>
 
 <div class="row">
-    <?php
-    include_once $_SERVER['DOCUMENT_ROOT'] . '/storage.php';
-
-    foreach ($posts as $post):
-        ?>
+    <?php foreach ($params as $post):  ?>
         <div class="col-sm-6 my-2">
             <div class="card">
                 <div class="card-body">

@@ -10,20 +10,20 @@
 
 <div class="header">
     <div class="container">
-        <?php include_once "../header.php"?>
-        <?php include_once '../navigation.php'?>
+        <?php include_once $_SERVER['DOCUMENT_ROOT'] . "/views/header.php"?>
+        <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/views/navigation.php'?>
     </div>
 </div>
 
 <main>
     <div class="container">
-        <?php include_once '../posts.php' ?>
+        {{content}}
     </div>
 </main>
 
 <footer class="footer">
     <div class="container">
-        <?php include_once '../footer.php'?>
+        <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/views/footer.php'?>
     </div>
 </footer>
 
