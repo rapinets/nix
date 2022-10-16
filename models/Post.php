@@ -3,21 +3,18 @@
 
 namespace app\models;
 
+use app\core\Model;
 
-use app\StorageClass;
-
-class Post
+class Post extends Model
 {
-    protected array $posts;
-
-    public function __construct()
+    public static function getTableName(): string
     {
-        $this->posts = (new StorageClass())->all();
+        return 'posts';
     }
 
-    public function all()
+    /*public function __construct()
     {
-        return $this->posts;
-    }
-
+        $this->table_name = "posts";
+        $this->id_column = "id";
+    }*/
 }
